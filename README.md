@@ -66,3 +66,8 @@ Beta testers for the web app
 Investors to scale API infrastructure
 
 Partners in EdTech/FinTech
+
+## Installation
+```bash
+pip install -r requirements.txt
+streamlit run app.py
