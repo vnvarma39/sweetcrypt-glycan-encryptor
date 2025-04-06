@@ -1,0 +1,18 @@
+1. Core Encryption Libraries
+Library	                     Purpose	                                         License
+cryptography	              AES-256-GCM encryption, scrypt key derivation   	Apache 2.0
+hashlib (Python stdlib)	   BLAKE2b hashing for glycan symbols	                PSF License
+zlib (Python stdlib)	     Data compression before encryption	                PSF License
+secrets (Python stdlib)  	Secure random number generation for IV/salt	     PSF License
+base64 (Python stdlib)	   Encoding binary data (IV, salt, ciphertext)	      PSF License
+
+2. File Handling Libraries
+Library	                 Purpose	                 License
+PyPDF2	             PDF text extraction	      BSD-3-Clause
+Pillow	             Image processing (JPG/PNG)	  HPND License
+io (Python stdlib)	 Binary stream handling	PSF    License
+
+3. UI Framework
+Library	           Purpose                        	License
+streamlit	      Web interface for encryption tool 	Apache 2.0
+
