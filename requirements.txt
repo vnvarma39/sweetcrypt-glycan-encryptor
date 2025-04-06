@@ -1,0 +1,27 @@
+streamlit>=1.22.0
+cryptography>=38.0.0
+PyPDF2>=2.10.0
+Pillow>=9.3.0
+pytest>=7.2.0
+
+### setup.py
+
+```python
+from setuptools import setup, find_packages
+
+setup(
+    name="sweetcrypt",
+    version="0.1.0",
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
+    install_requires=[
+        "cryptography>=38.0.0",
+        "PyPDF2>=2.10.0",
+        "Pillow>=9.3.0",
+    ],
+    entry_points={
+        "console_scripts": [
+            "sweetcrypt=sweetcrypt.cli:main",
+        ],
+    },
+)
